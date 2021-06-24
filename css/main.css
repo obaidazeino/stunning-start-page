@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #bebebe;
-  font-family: georgia, serif;
+  font-family: Georgia, serif;
   color: #323232;
   line-height: 1.5;
   font-weight: normal;
@@ -17,13 +17,13 @@ body {
 
 /** header styles **/
 
-h1 img {
-  width: 60%;
+img {
+  display: block;
+  width: 100%;
 }
 
-img {
-  display: inherit;
-  width: inherit;
+h1 img {
+  width: 60%;
 }
 
 header {
@@ -57,9 +57,11 @@ nav ul li {
 a {
   text-decoration: none;
   color: #eccee2;
+  z-index: 2;
+  position: relative;
 }
 
-li a:hover {
+a:hover {
   background-color: white;
   color: black;
 }
