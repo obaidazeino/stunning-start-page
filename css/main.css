@@ -1,9 +1,10 @@
 html {
   box-sizing: border-box;
   background-color: #bebebe;
-  font-family: georgia;
+  font-family: georgia, serif;
   color: #323232;
   line-height: 1.5;
+  font-weight: normal;
 }
 
 *, *::before, *::after {
@@ -21,7 +22,8 @@ h1 img {
 }
 
 img {
-  font-weight: normal;
+  display: inherit;
+  width: inherit;
 }
 
 header {
@@ -57,7 +59,7 @@ a {
   color: #eccee2;
 }
 
-a:hover {
+li a:hover {
   background-color: white;
   color: black;
 }
@@ -129,6 +131,7 @@ footer {
   justify-content: space-between;
   border-top: 2px solid #afafaf;
   padding: 1rem;
+  margin: 0;
 }
 
 footer a {
